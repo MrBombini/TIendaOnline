@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { ShoppingCart as CartIcon } from 'lucide-react';
-import { Product, CartItem } from './types';
+import { Product, CartItem,CheckoutForm  } from './types';
 import { getProducts } from './services/api';
 import { ProductCard } from './components/ProductCard';
 import { Cart } from './components/Cart';
-import { Checkout } from './components/Checkout';
+import { Checkout } from './components/Checkout';7
+
 
 function App() {
   const [products, setProducts] = useState<Product[]>([]);

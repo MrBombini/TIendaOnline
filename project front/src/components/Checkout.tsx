@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Country } from '../types';
+import { Country, CheckoutForm } from '../types';
 import { getCountries } from '../services/api';
 
 interface CheckoutProps {
